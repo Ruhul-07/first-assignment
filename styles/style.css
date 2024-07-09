@@ -19,7 +19,7 @@ body{
 .banner-area{
     width: 1440px;
     height: 652px;
-    background-image: url(/assets/Hero-bg.png);
+    background-image: url("../assets/Hero-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -34,7 +34,7 @@ body{
 
 }
 .banner-content img{
-    margin-top: 50px;
+    margin-top: 40px;
     margin-bottom: 10px;
 }
 .banner-content h1{
@@ -45,7 +45,7 @@ body{
     line-height: 68px;
     letter-spacing: 0%;
     text-align: center;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 .banner-content p{
     color: rgb(13, 19, 33);
@@ -55,11 +55,12 @@ body{
     line-height: 26px;
     letter-spacing: 0%;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 20px;
 }
 .banner-content button{
     width: 208px;
+    font-size: 20px;
     height: 66px;
     border-radius: 8px;
     background: rgb(13, 19, 33);
